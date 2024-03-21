@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 0;
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  .Main {
+    background-image: linear-gradient(to right bottom, #4CAF50, #3F51B5);
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .Main h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+
+  .services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #4CAF50;
+  }
+  
+  .service {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+
+  .service p {
+    color: #333333;
+  }
+
+  .service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #4CAF50;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  /* BMI FILE */
+  .Display {
+    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+    margin-bottom: 60px;
+  }
+
+  #result {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #4CAF50;
+  }
+
+  #type {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .container2{
+    display:flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .container2 span {
+    max-width: 5x;
+    padding: 20px;
+  }
+
+  input[type="range"]{
+    width: 70%;
+    height: 3.5px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #dcdcdc;
+    border-radius: 3px;
+    outline: none;
+  } 
+
+  input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: #3F51B5;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .suggestions {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+
+  #header {
+    color: #4CAF50;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  #Data {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  /* Timer */
+  .stopwatch {
+    font-size: 42px;
+    padding: 20px;
+    text-align: center;
+  }
+   
+  #minutes, #seconds, #hours {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  .Buttons {
+    padding: 20px;
+    text-align: center;
+    word-spacing: 10px;
+  }
+
+  #Start, #Stop, #Reset {
+    background: #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 12px;
+    text-align: center;
+  }
+
+  #Start:hover, #Stop:hover, #Reset:hover,
+  #Start:active , #Stop:active, #Reset:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #4CAF50;
+  }
+
+  /* Reminder */
+  .timeline {
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .outer {
+    border-left: 2px solid #4CAF50;
+    align-items: center;
+  }
+
+  .card {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    background: white;
+    color: gray;
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: larger;
+  }
+
+  .title {
+    color: #4CAF50;
+    position: relative;
+  }
+  
+  .title::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    left: -39px;
+    border: 3px solid #4CAF50;
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthCheck</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script src="main.js"></script>
+</head>
+<body>
+    <div class="Main">
+        <h1 class="animate__animated animate__fadeInDown">BMI Calculator</h1>
+    </div>
+    <div class="Display">
+        <p class="animate__animated animate__fadeInUp" id="result">40</p>
+        <p class="animate__animated animate__fadeInUp" id="type">Normal</p>
+    </div>
+    <div class="container2">
+        <input class="animate__animated animate__fadeInUp" type="range" min="20" max="200" value="20" id="weight" oninput="calculate()">
+        <span id="weight-val">20 kg</span>
+        <input class="animate__animated animate__fadeInUp" type="range" min="100" max="250" value="100" id="height" oninput="calculate()">
+        <span id="height-val">100 cm</span>
+    </div>
+    <div class="suggestions">
+        <p class="animate__animated animate__fadeInUp" id="header">Suggestions<p>
+        <div class="animate__animated animate__fadeInUp" id="Data">Looks Good for now</div>
+    </div>
+</body>
+</html>
