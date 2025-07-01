@@ -1,20 +1,21 @@
-# Basic Health Website
+# Stay Healthy Website
 
 ## Description
-Welcome to the Basic Health Website! This project serves as a learning project in web development, utilizing HTML, CSS, and JavaScript. The website aims to promote better self-health by providing tools for calculating BMI, setting exercise reminders, and offering friendly health tips.
+Stay Healthy is a fun learning project that utilizes HTML, CSS, and JavaScript. The website offers various health-related tools and information, including a BMI calculator, an exercise timer, and a page full of health reminders.
 
-## Usage 
-The Basic Health Website can be utilized on a daily basis in the following ways:
-1. BMI Calculation: Use the BMI calculator to assess your body mass index and take appropriate health precautions.
-2. Exercise Reminders: Set reminders while exercising to track time spent on physical activities, helping you stay disciplined and motivated.
+## Usage
+This website was created as part of a learning project but can also be utilized in daily life for health monitoring and reminders. To use the application, follow these steps:
 
-## Dependences
-This project utilizes a separate CSS library for animations to enhance the user experience. The library adds visual appeal and interactivity to the website.
+1. **BMI Calculator:** Use the BMI calculator to calculate your Body Mass Index (BMI) and receive specific food and exercise recommendations based on your BMI.
+2. **Exercise Timer:** Utilize the exercise timer to track time spent on different exercises or workout routines.
+3. **Health Reminders:** Explore the page full of friendly reminders such as staying hydrated, taking breaks to stand up, etc., to help maintain a healthy lifestyle.
 
-# Conclusion
-This project was created as a learning project and is distributed under the MIT license. You are free to use and redistribute the project for personal use. We appreciate your interest and hope this website helps you on your journey to better health!
+## Conclusion
+This project was developed as a learning endeavor and is released under the MIT License, allowing for modification and distribution for further use. Thank you for checking out Stay Healthy!
 
-## Future Improvement
-This can be further improved in future in the following ways:
-1. A Visual Monitor for tracking Exercies.
-2. An AI virtual Assistor for better advices.
+## License
+This project is licensed under the terms of the MIT license.
+
+## Support
+For any questions or issues, please contact me on my socials.
+
